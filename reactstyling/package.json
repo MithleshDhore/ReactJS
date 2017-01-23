@@ -2,7 +2,7 @@
   "name": "sliderdemo",
   "version": "1.0.0",
   "description": "image slider in react",
-  "main": "main.js",
+  "main": "webpack.config.js",
   "scripts": {
     "start": "webpack",
     "dev": "webpack-dev-server --progress --inline --hot"

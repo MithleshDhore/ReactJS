@@ -19,6 +19,13 @@ module.exports = {
       }
     ]
   },
+  devServer: {
+    address: '222.222.222.222',
+    port: 3000,
+    proxy: {
+        '/url/*': 'http://222.222.222.222:3000/'
+    }
+  },
   output: {
     path: __dirname + "/src/",
     filename: "client.min.js"
